@@ -1,0 +1,50 @@
+[
+    {
+        "id": 0,
+        "nome_utente": "Bianca Mugli",
+        "stelle": "4",
+        "testo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+        "id": 1,
+        "nome_utente": "Lorendo Frago",
+        "stelle": "5",
+        "testo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+        "id": 2,
+        "nome_utente": "Maria Lugi",
+        "stelle": "4",
+        "testo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+        "id": 3,
+        "nome_utente": "Federica Logni",
+        "stelle": "4",
+        "testo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+        "id": 4,
+        "nome_utente": "Lara Lori",
+        "stelle": "4",
+        "testo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+        "id": 5,
+        "nome_utente": "Francesco Franci",
+        "stelle": "4",
+        "testo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+        "id": 6,
+        "nome_utente": "Giuseppe Rori",
+        "stelle": "4",
+        "testo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+        "id": 7,
+        "nome_utente": "Elia Primi",
+        "stelle": "4",
+        "testo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }
+]
