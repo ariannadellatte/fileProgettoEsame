@@ -1,27 +1,32 @@
 [
     {
         "email": "ciao@gmail.com",
-        "nome": "Ari",
+        "nome": "Arianna",
+        "stelle": 4,
         "testo": "blablablablablablabla"
     },
     {
         "email": "ciao@gmail.com",
-        "nome": "Ari",
+        "nome": "Valeria",
+        "stelle": 5,
         "testo": "blablablablablablabla"
     },
     {
         "email": "ciao@gmail.com",
-        "nome": "Ari",
+        "nome": "Lorenzo",
+        "stelle": 5,
         "testo": "blablablablablablabla"
     },
     {
         "email": "ciao@gmail.com",
-        "nome": "Ari",
+        "nome": "Mattia",
+        "stelle": 3,
         "testo": "blablablablablablabla"
     },
     {
         "email": "ciao@gmail.com",
-        "nome": "Ari",
+        "nome": "Serena",
+        "stelle": 5,
         "testo": "blablablablablablabla"
     }
 ]
