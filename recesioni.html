@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.3/angular.min.js"
+        integrity="sha512-KZmyTq3PLx9EZl0RHShHQuXtrvdJ+m35tuOiwlcZfs/rE7NZv29ygNA8SFCkMXTnYZQK2OX0Gm2qKGfvWEtRXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+    <style>
+        .checked {
+            color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="recensioni" class="container mt-5 p-3 bg-light border-1 shadow" ng-app="recensioniApp">
+        <div class="row">
+            <div class="card border-0 bg-light">
+                <div class="card-body text-center">
+                    <h3 class="card-title">Le recensioni dei nostri clienti</h3>
+                    <h4 class="card-subtitle mb-2 text-muted">Come hanno valutato i nostri corsi i partecipanti?
+                    </h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+            <div class="col-5 me-5">
+                <form name="myForm" id="myForm" ng-controller="ctrlAdd" novalidate>
+                    <div class="form-group mb-1">
+                        <label>Email*</label>
+                        <input type="email" name="email" class="form-control" ng-model="email" aria-required="true"
+                            ng-pattern="/^.+@.+\..+$/" required>
+                        <span ng-show="myForm.email.$error.pattern" class="text-danger" role="alert">La mail non è
+                            valida</span>
+                        <span ng-show="myForm.email.$touched" class="text-danger">
+                            <span ng-show="myForm.email.$error.required" class="text-danger" role="alert">Inserisci
+                                l'email</span>
+                        </span>
+                    </div>
+                    <div class="form-group mb-1">
+                        <label>Nome*</label>
+                        <input type="text" name="name" class="form-control" ng-model="name" ng-pattern="/^[A-Za-z ]+$/"
+                            aria-required="true" required>
+                        <span ng-show="myForm.name.$error.pattern" class="text-danger">Il nome può contenere
+                            solo caratteri
+                            e spazi</span>
+                        <span ng-show="myForm.name.$touched">
+                            <span ng-show="myForm.name.$error.required" class="text-danger" role="alert">Inserire il
+                                nome</span>
+                        </span>
+                    </div>
+                    <div class="form-group mb-1">
+                        <label for="stelle">Stelle*</label>
+                        <select name="stelleSelect" ng-model="stelleSelect" class="form-select" id="stelle"
+                            aria-required="true"
+                            aria-label="Seleziona il numero di stelle che vuoi dare al nostro servizio" required>
+                            <option value="">Scegli la tua valutazione</option>
+                            <option value="1">Una stella</option>
+                            <option value="2">Due stelle</option>
+                            <option value="3">Tre stelle</option>
+                            <option value="4">Quattro stelle</option>
+                            <option value="5">Cinque stelle</option>
+                        </select>
+                        <span ng-show="myForm.stelleSelect.$touched" class="text-danger">
+                            <span ng-show="myForm.stelleSelect.$error.required" class="text-danger"
+                                role="alert">Selezione
+                                un'opzione</span>
+                        </span>
+                    </div>
+                    <div class="form-group mb-1">
+                        <label for="text">Recensione*</label>
+                        <textarea name="text" class="form-control" id="text" cols="30" rows="3" ng-model="text"
+                            aria-required="true" placeholder="Racconta la tua esperienza" required>
+                                </textarea>
+                        <span ng-show="myForm.text.$touched">
+                            <span ng-show="myForm.text.$error.required" class="text-danger" role="alert">Dicci la
+                                tua!</span>
+                        </span>
+                    </div>
+                    <span ng-show="myForm.$valid" class="text-success" role="alert">Tutti i campi sono compilati
+                        correttamente!</span>
+                    <div class="mt-3 d-flex justify-content-center">
+                        <input type="submit" value="Invia" class="btn btn-primary" id="myBtn"
+                            ng-disabled="myForm.$invalid" ng-click="newRecensione()">
+                    </div>
+                    <small class="text-danger">*I campi sono obbligatori</small>
+                </form>
+                <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                    <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                        <div class="toast-header">
+                            <img src="Immagini/logo.png" class="rounded me-2" alt="...">
+                            <strong class="me-auto">WellnessCenter</strong>
+                            <small>Adesso</small>
+                            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                        </div>
+                        <div class="toast-body">
+                            Ti ringraziamo, la tua recensione è stata inviata correttamente!
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-5 ms-5 d-flex align-items-center" ng-controller="ctrlShow">
+                <div>
+                    <div class="row">
+                        <div class="col">
+                            <img src=" undraw_male_avatar_re_y880.svg" alt="" width="50" class="mx-auto">
+                        </div>
+                        <div class="col d-flex align-items-center justify-content-center">
+                            <span class="fa fa-star checked myStar"
+                                ng-repeat="x in recensioniUtenti | limitTo: recensioniUtenti[indice].stelle"></span>
+                        </div>
+                    </div>
+
+                    <h2 class="fw-normal">{{recensioniUtenti[indice].nome}}</h2>
+                    <p>{{recensioniUtenti[indice].nome}}</p>
+                    <button class="btn btn-primary btn-prox" ng-click="incrementaIndice()">Prossima</button>
+                </div>
+            </div>
+    </section>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+<script src="main.js"></script>
+
+</html>
