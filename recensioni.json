@@ -3,119 +3,113 @@
         "email": "test@test.it",
         "nome_utente": "Bianca Mugli",
         "stelle": 5,
-        "testo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "testo": "Ho visitato lo studio fisioterapico per un problema alla schiena e sono rimasto molto soddisfatto della mia esperienza."
     },
     {
         "email": "test@test.it",
         "nome_utente": "Lorendo Frago",
         "stelle": 4,
-        "testo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "testo": "Il personale è stato molto accogliente e attento alle mie esigenze, e il fisioterapista che mi ha trattato era altamente qualificato e professionale."
     },
     {
         "email": "test@test.it",
         "nome_utente": "Maria Lugi",
         "stelle": 4,
-        "testo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "testo": "Consiglio vivamente questo servizio di massoterapia a chiunque stia cercando di rilassarsi e migliorare la propria salute."
     },
     {
         "email": "test@test.it",
         "nome_utente": "Federica Logni",
         "stelle": 4,
-        "testo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "testo": "Il mio fisioterapista mi ha fatto sentire a mio agio e ha lavorato con me per trovare la soluzione più adatta al mio problema."
     },
     {
         "email": "test@test.it",
         "nome_utente": "Lara Lori",
         "stelle": 5,
-        "testo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "testo": "Dopo solo una sessione ho già notato un miglioramento significativo nella mia condizione e sono molto grato per il loro servizio eccellente. Consiglierei questo studio fisioterapico a chiunque stia cercando un trattamento di alta qualità."
     },
     {
         "email": "test@test.it",
         "nome_utente": "Francesco Franci",
         "stelle": 5,
-        "testo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "testo": "La sessione è stata molto informativa e ho imparato molto sul mio corpo e su come prendermi cura di me stesso."
     },
     {
         "email": "test@test.it",
         "nome_utente": "Giuseppe Rori",
         "stelle": 3,
-        "testo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "testo": "La sessione è stata molto informativa e ho imparato molto sul mio corpo e su come prendermi cura di me stesso, tuttavia il mio problema richiedeva un'intervento specifico"
     },
     {
         "email": "test@test.it",
         "nome_utente": "Elia Primi",
         "stelle": 4,
-        "testo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "testo": "Il massaggiatore era molto attento alle mie esigenze e ha lavorato per alleviare la tensione accumulata nei miei muscoli. La stanza era accogliente e rilassante, e ho potuto godere di un'ora di pace e tranquillità. "
     },
     {
         "email": "test@test.it",
-        "nome_utente": "Federica Logni",
+        "nome_utente": "Federica Rossi",
         "stelle": 4,
-        "testo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "testo": "Consiglierei questo servizio di osteopatia a chiunque stia cercando un trattamento completo e personalizzato per i propri problemi di salute."
     },
     {
         "email": "test@test.it",
-        "nome_utente": "Lara Lori",
+        "nome_utente": "Lucia Verdi",
         "stelle": 4,
-        "testo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "testo": "Il mio osteopata ha esaminato attentamente i miei problemi di salute e ha lavorato per risolverli attraverso un approccio olistico che considerava il mio corpo come un insieme interconnesso."
     },
     {
         "email": "test@test.it",
-        "nome_utente": "Francesco Franci",
+        "nome_utente": "Francesco Luci",
         "stelle": 5,
-        "testo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "testo": "Consiglierei questo servizio di osteopatia a chiunque stia cercando un trattamento completo e personalizzato per i propri problemi di salute."
     },
     {
         "email": "test@test.it",
-        "nome_utente": "Giuseppe Rori",
+        "nome_utente": "Giuseppe Laterza",
         "stelle": 5,
-        "testo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "testo": "Il podologo era molto attento alle mie esigenze e ha lavorato per risolvere il mio problema di piedi con competenza e professionalità."
     },
     {
         "email": "test@test.it",
-        "nome_utente": "Elia Primi",
+        "nome_utente": "Mario Lo Presti",
         "stelle": 5,
-        "testo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "testo": "Ho apprezzato molto il fatto che lo studio rispondesse rapidamente alle mie richieste e alle mie preoccupazioni. Non ho mai dovuto aspettare molto per avere una risposta o un appuntamento, e questo mi ha fatto sentire che il mio tempo era rispettato."
     },
     {
         "email": "test@test.it",
-        "nome_utente": "Federica Logni",
+        "nome_utente": "Eva Langhi",
         "stelle": 3,
-        "testo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "testo": "Nonostante non abbia ottenuto la soluzione che cercavo, sono grato per l'accoglienza e la professionalità che ho ricevuto e consiglierei questo studio a chiunque stia cercando un'esperienza di qualità e un trattamento amichevole."
     },
     {
         "email": "test@test.it",
-        "nome_utente": "Lara Lori",
+        "nome_utente": "Leda Accusi",
+        "stelle": 5,
+        "testo": "Vorrei sottolineare l'eccezionale accoglienza che ho ricevuto durante la mia esperienza. Il personale era molto amichevole e disponibile, e mi ha fatto sentire a mio agio durante la mia visita."
+    },
+    {
+        "email": "test@test.it",
+        "nome_utente": "Ludovica Testi",
+        "stelle": 5,
+        "testo": "Il personale è stato molto disponibile e cordiale durante tutta la mia visita, e hanno fatto di tutto per assicurarsi che avessi un'esperienza positiva."
+    },
+    {
+        "email": "test@test.it",
+        "nome_utente": "Marco Migri",
         "stelle": 5,
         "testo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
         "email": "test@test.it",
-        "nome_utente": "Francesco Franci",
-        "stelle": 5,
-        "testo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-        "email": "test@test.it",
-        "nome_utente": "Giuseppe Rori",
-        "stelle": 5,
-        "testo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-        "email": "test@test.it",
-        "nome_utente": "Elia Primi",
+        "nome_utente": "Andrea Ursola",
         "stelle": 5,
         "testo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
         "email": "test@test.it",
         "nome_utente": "Franca Franchi",
-        "stelle": 3,
-        "testo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-        "email": "test@test.it",
-        "nome_utente": "Lorenzo Botteglia",
         "stelle": 3,
         "testo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
